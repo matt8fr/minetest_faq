@@ -5,7 +5,7 @@ title: Les FAQ de Mynetest
 
 #Les FAQ de Mynetest
 
-Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
+Pour jouer à Minetest, il faut surtout bien connaître les différentes icônes en bas de l'inventaire. Celui-ci s'ouvre par défaut avec la touche I. En voici une capture d'écran (les numéros sous les icônes serviront dans les explications.)
 
 ![Icônes inventaire](images/inventaire_numeros.png "Icônes inventaire")
 
@@ -16,7 +16,7 @@ Voyez également [le lexique](lexique.html "Lexique") pour avoir l'explication d
 <!--
 TODO : certains liens internes ne marchent pas : que faire des lettre accentuées, des apostrophes et des traits d'unions ?
 
-Règles aappliquées par Jekyll pour créer l'id d'un titre :
+Règles appliquées par Jekyll pour créer l'id d'un titre :
 * tout passer en minuscules;
 * ne garder que les signes alphanumériques;
 * supprimer les mettre accentuées;
@@ -56,7 +56,7 @@ Règles aappliquées par Jekyll pour créer l'id d'un titre :
 
 ## Comment parler aux autres joueurs ?
 
-Pour "dire" quelques-chose qui sera lu par tous les joueurs connectés au serveur, tapez la Touche T (comme "Talk", le mot anglais pour parler", puis tapez votre message. Faites un effort pour écrire clairement, et évitez les messages tout en majuscules : c'est interprété comme un comportement agressif. Tout le monde n'est pas une "bête" en orthographe et certains joueurs sont très jeunes, ou d'origine étrangère ce n'est donc pas très gentil de se moquer de leurs fautes.
+Pour "dire" quelques-chose qui sera lu par tous les joueurs connectés au serveur, tapez la Touche T (comme "Talk", le mot anglais pour parler"), puis tapez votre message. Faites un effort pour écrire clairement, et évitez les messages tout en majuscules : c'est interprété comme un comportement agressif. Tout le monde n'est pas une "bête" en orthographe et certains joueurs sont très jeunes, ou d'origine étrangère ce n'est donc pas très gentil de se moquer de leurs fautes.
 
 Si vous voulez envoyez un message secret à une personne qui est connectée, il va falloir utiliser une comande (une commande c'est un message spécial, destiné au serveur, ce qu'on signale en le faisant débuter par le caractère "/", le "slash"). Pour dire "bonjour à Toto, Tapez T puis `/msg Toto Bonjour` (la commande /msg, demande au serveur de transmettre votre message à un joueur et un seul).
 
@@ -84,7 +84,7 @@ Pour créer une area, il faut commencer par crafter (fabriquer) des *Markers* :
 
 ![Markers](images/markers.png "markers")
 
-Ensuite, vous devez placer deux markers au extrémités d'une des diagonales de la zone à protéger :
+Ensuite, vous devez placer deux markers (peu importe la hauteur des markers ) au extrémités d'une des diagonales de la zone à protéger :
 
 ![Diagonale](images/diagonale.png "Diagonale")
 
@@ -104,7 +104,7 @@ Placez le n'importe où *à l'intérieur de votre area* et faites un clic droit 
 
 ![menu_boundary](images/menu_boundary.png "menu_boundary")
 
-**Si votre area est importante, ajoutez-y seulement des personnes de confiance, autrement c'est une source de chamailleires. Vous pouvez "tester" un joueur en travaillant avec lui sur une area moins "sensible".**
+**Si votre area est importante, ajoutez-y seulement des personnes de confiance, autrement c'est une source de chamailleires. Vous pouvez "tester" un joueur en travaillant avec lui sur une area moins "sensible", vous pouvait également partage une partis seulement de votre area en créent une seconde area à l'intérieur de la première puis ajouter le joueur a cette deuxième area.**
 
 ## Comment pêcher ?
 
@@ -130,9 +130,9 @@ Prenez la canne à pêche en main comme n'importe quel autre outil et faites un 
 
 Vous croiserez différents animaux dans le monde de Minetest. Il est possible de les apprivoiser pour en tirer des œufs, du lait de la laine et beaucoup d'autres choses.
 
-Pour apprivoiser les animaux, le principe est toujours le même : il faut d'abord des nourrir avec leut aliment favori, jusqu'à ce qu'un message s'affiche, par exemple "Rabbit tamed" si vous avez apprivoisé un lapin.
+Pour apprivoiser les animaux, le principe est toujours le même : il faut d'abord les nourrir avec leur aliment favori, jusqu'à ce qu'un message s'affiche, par exemple "Rabbit tamed" si vous avez apprivoisé un lapin.
 
-Ensuite il faut attraper l'animal : pour les plus petits (lapins, poules…) il suffit de faire un clic droit dessus *en ayant les mains vides*. Plusirus clics seront nécessaires, mais attention ! *Si vous faites un clic de trop après avoir capturé l'animal, vous relâcherez celui-ci !*
+Ensuite il faut attraper l'animal : pour les plus petits (lapins, poules…) il suffit de faire un clic droit dessus *en ayant les mains vides*. Plusieurs clics seront nécessaires, mais attention ! *Si vous faites un clic de trop après avoir capturé l'animal, vous relâcherez celui-ci !*
 
 Pour les gros animaux, il va vous falloir un outil, le *Magic Lasso* que vous utiliserez aussi avec un clic droit :
 
@@ -155,7 +155,7 @@ Voici un tableau qui vous explique comment capturer les différents animaux :
 
 ## Comment protéger les animaux ?
 
-Si vous voulez empêcher les autres joueurs de tuer vos animaux, il faut d'abord les garder sur l'une de vos area en les enferment sans un enclos ou dans un bâtiment. *Attention !* les animaux peuvent se faufiler entre deux blocs disposés en diagonale et certains sont capables de sauteer très haut.
+Si vous voulez empêcher les autres joueurs de tuer vos animaux, il faut d'abord les garder sur l'une de vos areas en les enferment dans un enclos ou dans un bâtiment. *Attention !* les animaux peuvent se faufiler entre deux blocs disposés en diagonale et certains sont capables de sauteer très haut.
 
 Ensuite, vous aurez besoin d'une rune de protection :
 
@@ -189,13 +189,14 @@ Une barre d'usure va apparaître sous le marteau et diminuer progressivement pen
 
 ## Comment on fait pousser des plantes ?
 
-C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html/#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes assez près de l'eau (trois cases).
+C'est un peu compliqué et je vous conseille de lire ce qui concerne l'agriculture sur la page [premiers pas](premiers_pas.html/#premiers-pas-de-cultivateur "Premiers pas"). En règle générale vous devez labourer la terre à l'aide d'une houe (*hoe*) et vous assurer que vous êtes assez près de l'eau (trois cases, l'eau peut être sous la terre labourer
+).
 
 ![hoe](images/hoe.png "hoe")
 
 ## Comment enchanter un objet ?
 
-Vous pouvez enchaner certains objets pour les rendre plus efficaces. Les armes et les pioche pourront devenir plus efficaces ou plus durables, les pièces d'armure debviendront plus solides et les bottes enchantées vous permettront de vous déplacer plus vite.
+Vous pouvez enchanter certains objets pour les rendre plus efficaces. Les armes et les pioche pourront devenir plus efficaces ou plus durables, les pièces d'armure deviendront plus solides et les bottes enchantées vous permettront de vous déplacer plus vite.
 
 Pour enchanter un objet, il vous faudra des cristaux de mese et une table d'enchantement :
 
@@ -223,7 +224,7 @@ En faisant un clic droit sur la machine, vous accédez à sa fenêtre de configu
 
 ![menu_vending](images/menu_vending.png "menu_vending")
 
-Dans la case *Offered Item*, faites glisser l'objet que vous voules vendre. Vous pouvez vendre pas lot en modifiant le chiffre dans la case d'à côté. Le prix est toujours payé en lingots d'or ; la case permet d'entrer le nombre de lingots que coûtera un lot d'objets (dans notre exemple, un "lot" d'un cristal de mese coûte un lingot d'or).
+Dans la case *Offered Item*, faites glisser l'objet que vous voules vendre. Vous pouvez vendre par lot en modifiant le chiffre dans la case d'à côté. Le prix est toujours payé en lingots d'or ; la case permet d'entrer le nombre de lingots que coûtera un lot d'objets (dans notre exemple, un "lot" d'un cristal de mese coûte un lingot d'or).
 
 Vous remarquerez enfin un petit point rouge en haut à droite : il indique que votre machine n'est pas prête à fonctionner : elle utilise le coffre placé en dessous d'elle comme un réservoir dans lequel elle va "pomper" les objets à vendre. Mettez des cristaux de mese dans ce coffre et revenez au menu de configuration de la machine : le rond doit maintenant être vert. Quand il n'y a plus de cristaux dans le coffre, la machine s'arrête.
 
@@ -243,7 +244,7 @@ Une fois vos cabines en place, il faudra les configurer toutes les deux (clic dr
 
 Dans la première ligne, tapez le nom de la cabine (un nom qui rappelle l'endroit ou elle se trouve : "Maison", "Mine", "Magasin"…).
 
-Dans la deuxième ligne, entrez le nom du réseau auquel appartient la cabien. Chaque joueur peut se créer plusieurs réseaux, et une cabine permet de voyager uniquement sur le réseau auquel elle appartient.
+Dans la deuxième ligne, entrez le nom du réseau auquel appartient la cabine. Chaque joueur peut se créer plusieurs réseaux, et une cabine permet de voyager uniquement sur le réseau auquel elle appartient.
 
 **Faites bien attention à l'orthographe en remplissant cette case : la moindre faute crée un nouveau réseau et vos cabines, sur des réseaux, différents ne pourront pas communiquer.**
 
@@ -251,7 +252,7 @@ La troisième ligne sert simplement à taper votre nom.
 
 Pout utiliser votre réseau, faites un clic droit sur une cabine configurée et choisissez votre destination parmi celles qui vous sont proposées. Si vous ne voyez pas votre deuxième cabine sur ce réseau, vous avez peut-être fait une faute de frappe en la configurant : vérifiez !
 
-Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en place. *On ne paut pas détruire une cabine qui n'a pas encore été configurée*
+Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en place. *On ne peut pas détruire une cabine qui n'a pas encore été configurée*
 
 **Quand vous ajoutez une cabine à un réseau, celle-ci n'est pas automatiquement détectée par les autres cabines de ce réseau.** La nouvelle cabine n'apparaîtra donc pas dans la liste des destinations porposées par les autre cabines. Il faut donc mettre à jour ces autres cabines : pour cela, frappez-les en faisant un clic gauche. Comme avec les machines à café, il faut taper sur les travelnets pour les faire marcher :-)
 
@@ -262,7 +263,7 @@ Pour reconfigurer une cabine, il faut d'abord la détruire, puis la remettre en 
 
 ## J'ai un problème : à qui je m'adresse ?
 
-* S'il il s'agit d'un problème dans le jeu, parlez-en aux autres joueurs qui sauront peut-être vous expliquer ce que vous n'avez pas compris.
+* S'il s'agit d'un problème dans le jeu, parlez-en aux autres joueurs qui sauront peut-être vous expliquer ce que vous n'avez pas compris.
 * Pour signaler un bug, adressez-vous à l'administrateur du serveur, Upsilon.
 * Si vous avez un désaccord avec un autre joueur, vous aurez besoin d'un modérateur qui vous aidera à trouver une solution ; la liste des modérateurs est affichée sur un panneau près du spawn.
 
@@ -274,7 +275,7 @@ Au fur et à mesure que l'on s'enfonce sous terre, on trouve de nouveaux minerai
 
 ## À quelle profondeur trouve-t-on du nyan ?
 
-Le *Nyan Cat* est bloc humoristique inspiré d'[une vidéo qui a déjà rendu fous des millions d'internautes](https://www.youtube.com/watch?v=wZZ7oFKsKzY "Nyan !"). On peu le trouver à n'importe quelle profondeur, et même en altitude. Seulement, i est extrèmement rare, et on peut jouer à Minetest pendant des mois sans jamais en trouver.
+Le *Nyan Cat* est un bloc humoristique inspiré d'[une vidéo qui a déjà rendu fous des millions d'internautes](https://www.youtube.com/watch?v=wZZ7oFKsKzY "Nyan !"). On peu le trouver à n'importe quelle profondeur, et même en altitude. Seulement, il est extrèmement rare, et on peut jouer à Minetest pendant des mois sans jamais en trouver.
 
 ## "T'as pas…" ?
 
@@ -304,9 +305,9 @@ Les modérateurs donnent assez facilement ces privilèges aux joueurs qui animen
 
 ## Je peux être modo ?
 
-Le statut de modo, comme les privilège, c'est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l'arbitre sur un terrain de football : permettre aux gens de s'amuser en s'assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour "calmer le jeu" et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d'un petit coup de main ou d'un petit conseil. Bref : à force d'arbitrer, vous aurez beaucoup moins de temps pour jouer.
+Le statut de modo, comme les privilège, c'est quelque-chose qui ne se demande pas. Le rôle du modérateur sur un serveur est le même que celui de l'arbitre sur un terrain de football : permettre aux gens de s'amuser en s'assurant que les règles sont bien respectées. En cas de conflit entre deux joueurs, le modérateur est là pour "calmer le jeu" et pour éviter que les petites chamailleries dégénèrent en véritables fâcheries. Si vous devenez modo vous serez également très solicité par les joueurs qui ont juste besoin d'un petit coup de main ou d'un petit conseil. Bref : à force d'arbitrer, vous aurez beaucoup moins de temps pour jouer(voir plus du tout).
 
-Le modérateur a généralement presque tous les privilèges, et s'il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l'air, en rendant le Nyan aussi courant que la cobble…). Mais il ne le fait pas, car comme le disent les linuxiens : "un grand pouvoir implique de grandes responsabilités". Avant de pouvoir modérer les autres, il faut d'abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?
+Le modérateur a généralement presque tous les privilèges, et s'il le voulait, il pourrait semer la pagaille partout sur la carte du jeu (en mettant de la lave partout, en remplaçant toute la pierre par de l'air, en rendant le Nyan aussi courant que la cobble, il parait meme que certain peuvent faire tomber la foudre sur les joueurs...). Mais il ne le fait pas, car comme le disent les linuxiens : "un grand pouvoir implique de grandes responsabilités". Avant de pouvoir modérer les autres, il faut d'abord être capable de se modérer soi-même. Alors ? vous voulez toujours être modo ?
 
 ## C'est quoi une commande ?
 
